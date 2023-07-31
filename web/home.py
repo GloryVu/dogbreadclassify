@@ -1,5 +1,5 @@
 import streamlit as st
-st.write('Dogbreeds Classification Training Solutions')
+st.write('dogbreadclassification Classification Training Solutions')
 
 st.write('some thing i wanna mention:')
 

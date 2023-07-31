@@ -3,7 +3,7 @@ import wget
 import time
 import zipfile
 import os
-st.write('Upload Dogbreeds classification dataset:')
+st.write('Upload dogbreadclassification classification dataset:')
 uploaded_file = st.file_uploader("Upload Dataset .zip",type=['zip'], accept_multiple_files=False)
 st.write('note: Dataset .zip must structured with pytorch format')
 st.write('root')

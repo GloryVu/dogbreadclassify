@@ -1,6 +1,6 @@
 import time
-from dogbreeds.classifier.prune import PruneThread
-from dogbreeds.classifier.train import TrainThread
+from classifier.prune import PruneThread
+from classifier.train import TrainThread
 train = TrainThread(arch = 'resnet152',batch_size=32)
 print('--------')
 train.start()

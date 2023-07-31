@@ -11,8 +11,8 @@ import os
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from threading import Thread
-from dogbreeds.classifier.trainlog import TrainLogger
-from dogbreeds.classifier.test import (test_speed, obtain_num_parameters)
+from classifier.trainlog import TrainLogger
+from classifier.test import (test_speed, obtain_num_parameters)
 import shutil
 class TrainThread(Thread):
     def __init__(self, train_root = 'classifier/data/train/',valid_root = 'classifier/data/val/'

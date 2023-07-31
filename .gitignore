@@ -7,3 +7,10 @@ classifier/checkpoints/*/pth
 datasets/*
 classifier/model/*
 classifier/checkpoints/*
+include
+lib
+lib64
+share
+dist
+bin
+buid

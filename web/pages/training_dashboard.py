@@ -1,4 +1,7 @@
 import time  # to simulate a real time data, time loop
+import os
+import sys
+
 
 import numpy as np  # np mean, np random
 import pandas as pd  # read csv, train_df manipulation
@@ -6,15 +9,14 @@ import plotly.express as px  # interactive charts
 import streamlit as st  # 🎈 data web app development
 import torchvision
 import torch
-import os
 import wget
-from dogbreeds.classifier import util
-from dogbreeds.classifier.train import TrainThread
-from dogbreeds.classifier.prune import PruneThread
+from classifier import util
+from classifier.train import TrainThread
+from classifier.prune import PruneThread
 import matplotlib.pyplot as plt
 import threading
 import json
-# from dogbreeds.util import reorg_dog_data
+# from dogbreadclassification.util import reorg_dog_data
 st.set_page_config(
     page_title="Real-Time Data Science Dashboard",
     page_icon="✅",
