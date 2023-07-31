@@ -1,0 +1,9 @@
+*.mp4
+images/*
+Resnet50-pruning
+classifier/pretrained_models/*
+classifier/data
+classifier/checkpoints/*/pth
+datasets/*
+classifier/model/*
+classifier/checkpoints/*
