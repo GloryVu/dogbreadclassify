@@ -2,7 +2,6 @@ README.md
 setup.py
 classifier/__init__.py
 classifier/local_run.py
-classifier/model.py
 classifier/prune.py
 classifier/test.py
 classifier/train.py
